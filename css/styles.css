@@ -71,6 +71,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
 }
 
 .logo img{
@@ -79,13 +80,19 @@ header{
     height: 100px;
 }
 
-
+.menu_opciones .logo {
+    transform: rotate(0deg); 
+    transition: transform 0.9s; 
+}
 
 .menu_opciones .logo:hover{
 
     transform: rotate(-50deg);
-    transition: transform 0.9s; 
+   
 }
+
+
+
 .menu_opciones nav ul li{
     position: relative;
     float: left;
@@ -97,6 +104,7 @@ header{
     padding: 18px;
     color:#F9F2E4;
     display: block;
+    transition: background-color 0.5s ease;
 }
 
 .menu_opciones nav ul li a:hover{
@@ -126,6 +134,7 @@ header{
     text-transform: uppercase;
     border-radius: 2rem;
     font-weight: bold;
+    transition: background-color 0.5s ease;
   
 }
 
